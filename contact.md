@@ -1,1 +1,0 @@
-If you have any questions or comments about the THPep webserver, please direct them to us at chanin.nan[at]mahidol.edu.
