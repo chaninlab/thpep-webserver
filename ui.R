@@ -32,8 +32,6 @@ shinyUI(fluidPage(title="THPep: a web server for predicting tumor homing peptide
                              ), #tabPanel Submit Job
                              
                              tabPanel("About", titlePanel("About"), div(includeMarkdown("about.md"), align="justify")),
-                             tabPanel("Citing Us", titlePanel("Citing Us"), includeMarkdown("cite.md")),
-                             tabPanel("Contact", titlePanel("Contact"), includeMarkdown("contact.md")),	
                              
                              copyright <- div(HTML("<br><table border=0 cellpadding=10 cellspacing=10 width='100%' height='50'><tr><td bgcolor='#f2f2f2' align='center'>Copyright © 2018 <a href='http://codes.bio'>codes.bio</a>. All rights reserved.</td></tr></table>")),
                              cat(as.character(copyright))
